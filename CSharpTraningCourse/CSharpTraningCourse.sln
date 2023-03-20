@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DivisibleBy7And11", "01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CheckLeapYearOrNot", "02.CheckLeapYearOrNot\02.CheckLeapYearOrNot.csproj", "{95ABABC4-EFDB-4BC7-B225-290965D4544B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WhatIsThe47-thPrimeNumber", "03.WhatIsThe47-thPrimeNumber\03.WhatIsThe47-thPrimeNumber.csproj", "{5410B83F-3DA6-42E7-BA16-839FDC97DD89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{95ABABC4-EFDB-4BC7-B225-290965D4544B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95ABABC4-EFDB-4BC7-B225-290965D4544B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95ABABC4-EFDB-4BC7-B225-290965D4544B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5410B83F-3DA6-42E7-BA16-839FDC97DD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5410B83F-3DA6-42E7-BA16-839FDC97DD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5410B83F-3DA6-42E7-BA16-839FDC97DD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5410B83F-3DA6-42E7-BA16-839FDC97DD89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DED54349-E594-4978-8B75-C62E3291A1D8} = {A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}
 		{95ABABC4-EFDB-4BC7-B225-290965D4544B} = {A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}
+		{5410B83F-3DA6-42E7-BA16-839FDC97DD89} = {A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FC81B0E-2B94-4105-A7DD-30AFD70ED2F4}
