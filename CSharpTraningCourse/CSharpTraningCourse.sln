@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCSharp", "BasicCSharp\BasicCSharp.csproj", "{6DC48BD3-AFA6-4CF8-AFA3-7AE4305BB548}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeworkBasicPart2", "HomeworkBasicPart2", "{A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DivisibleBy7And11", "01.DivisibleBy7And11\01.DivisibleBy7And11.csproj", "{DED54349-E594-4978-8B75-C62E3291A1D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{6DC48BD3-AFA6-4CF8-AFA3-7AE4305BB548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DC48BD3-AFA6-4CF8-AFA3-7AE4305BB548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DC48BD3-AFA6-4CF8-AFA3-7AE4305BB548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED54349-E594-4978-8B75-C62E3291A1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED54349-E594-4978-8B75-C62E3291A1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED54349-E594-4978-8B75-C62E3291A1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED54349-E594-4978-8B75-C62E3291A1D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DED54349-E594-4978-8B75-C62E3291A1D8} = {A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FC81B0E-2B94-4105-A7DD-30AFD70ED2F4}
