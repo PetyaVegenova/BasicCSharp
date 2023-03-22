@@ -9,7 +9,7 @@
             int newTerm = 0;
             int sum = 0;
 
-            while (newTerm < 1000)
+            while (newTerm <= 1000)
             {
                 newTerm = first + second;
 
