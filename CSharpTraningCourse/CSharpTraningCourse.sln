@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FindThe SumOfTheEvenValu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FindTheSumOfDigitsOfANumberReadFromKeyboard", "05.FindTheSumOfDigitsOfANumberReadFromKeyboard\05.FindTheSumOfDigitsOfANumberReadFromKeyboard.csproj", "{426E4B19-C36C-44E3-AC34-387DE3F9627B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge1", "Challenge1\Challenge1.csproj", "{4EFBB49C-3EF2-4BE6-B1C1-51F36DE9D0E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{426E4B19-C36C-44E3-AC34-387DE3F9627B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{426E4B19-C36C-44E3-AC34-387DE3F9627B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{426E4B19-C36C-44E3-AC34-387DE3F9627B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFBB49C-3EF2-4BE6-B1C1-51F36DE9D0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFBB49C-3EF2-4BE6-B1C1-51F36DE9D0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFBB49C-3EF2-4BE6-B1C1-51F36DE9D0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFBB49C-3EF2-4BE6-B1C1-51F36DE9D0E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{5410B83F-3DA6-42E7-BA16-839FDC97DD89} = {A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}
 		{3B748068-82F0-4F69-B22E-2117B2BA5DFA} = {A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}
 		{426E4B19-C36C-44E3-AC34-387DE3F9627B} = {A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}
+		{4EFBB49C-3EF2-4BE6-B1C1-51F36DE9D0E1} = {A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FC81B0E-2B94-4105-A7DD-30AFD70ED2F4}
