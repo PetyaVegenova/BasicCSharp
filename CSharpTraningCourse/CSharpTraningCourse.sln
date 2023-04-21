@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCSharp", "BasicCSharp\BasicCSharp.csproj", "{6DC48BD3-AFA6-4CF8-AFA3-7AE4305BB548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeMachine", "BasicCSharp\CoffeeMachine.csproj", "{6DC48BD3-AFA6-4CF8-AFA3-7AE4305BB548}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeworkBasicPart2", "HomeworkBasicPart2", "{A7E6D7BB-D1D1-4114-A7E7-ED8C143E29BF}"
 EndProject
@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CheckLeapYearOrNot", "02
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.WhatIsThe47-thPrimeNumber", "03.WhatIsThe47-thPrimeNumber\03.WhatIsThe47-thPrimeNumber.csproj", "{5410B83F-3DA6-42E7-BA16-839FDC97DD89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FindThe SumOfTheEvenValuedTermsInTheFibonacci", "04.FindThe SumOfTheEvenValuedTermsInTheFibonacci\04.FindThe SumOfTheEvenValuedTermsInTheFibonacci.csproj", "{3B748068-82F0-4F69-B22E-2117B2BA5DFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.FindThe SumOfTheEvenValuedTermsInTheFibonacci", "04.FindThe SumOfTheEvenValuedTermsInTheFibonacci\04.FindThe SumOfTheEvenValuedTermsInTheFibonacci.csproj", "{3B748068-82F0-4F69-B22E-2117B2BA5DFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FindTheSumOfDigitsOfANumberReadFromKeyboard", "05.FindTheSumOfDigitsOfANumberReadFromKeyboard\05.FindTheSumOfDigitsOfANumberReadFromKeyboard.csproj", "{426E4B19-C36C-44E3-AC34-387DE3F9627B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.FindTheSumOfDigitsOfANumberReadFromKeyboard", "05.FindTheSumOfDigitsOfANumberReadFromKeyboard\05.FindTheSumOfDigitsOfANumberReadFromKeyboard.csproj", "{426E4B19-C36C-44E3-AC34-387DE3F9627B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge1", "Challenge1\Challenge1.csproj", "{4EFBB49C-3EF2-4BE6-B1C1-51F36DE9D0E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge1", "Challenge1\Challenge1.csproj", "{4EFBB49C-3EF2-4BE6-B1C1-51F36DE9D0E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeworkBasicPart3", "HomeworkBasicPart3", "{27437C52-94BA-4AE5-ABCB-6DBA113EBADE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
