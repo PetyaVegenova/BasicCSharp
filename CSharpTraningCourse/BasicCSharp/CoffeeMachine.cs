@@ -70,5 +70,12 @@
                 return false;
             }
         }
+
+        public virtual string ReportAmounts()
+        {
+            return $"Report : {Environment.NewLine}" +
+                $"Loaded water amount - {LoadedWaterAmount}ml {Environment.NewLine}" +
+                $"Loaded grounded coffee amount - {LoadedGroundedCoffeeAmount}gr";
+        }
     }
 }

@@ -61,15 +61,12 @@
         {
             if (LoadedMilkAmount >= GlobalConstants.CAPPUCCINO_DOSE_MILK_AMOUNT)
             {
-                if (LoadedGroundedCoffeeAmount >= GlobalConstants.GROUNDED_COFFEE_DOSE_AMOUNT)
+                Console.WriteLine(GlobalConstants.PREPARING_CAPPUCCINO_MESSAGE);
+                LoadedMilkAmount -= GlobalConstants.CAPPUCCINO_DOSE_MILK_AMOUNT;
+                var result = this.MakeCoffee();
+                if (result)
                 {
-                    Console.WriteLine(GlobalConstants.PREPARING_CAPPUCCINO_MESSAGE);
-                    LoadedMilkAmount -= GlobalConstants.CAPPUCCINO_DOSE_MILK_AMOUNT;
-                    var result = this.MakeCoffee();
-                    if (result)
-                    {
-                        Console.WriteLine(GlobalConstants.CAPPUCCINO_IS_READY_MESSAGE);
-                    }
+                    Console.WriteLine(GlobalConstants.CAPPUCCINO_IS_READY_MESSAGE);
                 }
             }
             else
@@ -103,15 +100,12 @@
         {
             if (LoadedMilkAmount >= GlobalConstants.LATTE_DOSE_MILK_AMOUNT)
             {
-                if (LoadedGroundedCoffeeAmount >= GlobalConstants.GROUNDED_COFFEE_DOSE_AMOUNT)
+                Console.WriteLine(GlobalConstants.PREPARING_LATTE_MESSAGE);
+                LoadedMilkAmount -= GlobalConstants.LATTE_DOSE_MILK_AMOUNT;
+                var result = this.MakeCoffee();
+                if (result)
                 {
-                    Console.WriteLine(GlobalConstants.PREPARING_LATTE_MESSAGE);
-                    LoadedMilkAmount -= GlobalConstants.LATTE_DOSE_MILK_AMOUNT;
-                    var result = this.MakeCoffee();
-                    if (result)
-                    {
-                        Console.WriteLine(GlobalConstants.LATTE_IS_READY_MESSAGE);
-                    }
+                    Console.WriteLine(GlobalConstants.LATTE_IS_READY_MESSAGE);
                 }
             }
             else
@@ -141,6 +135,15 @@
                 $"{Environment.NewLine}- coffee beans tank capacity {CoffeeBeansTankCapacity}gr" +
                 $"{Environment.NewLine}- milk tank capacity{MilkTankCapacity}ml" +
                 $"{Environment.NewLine}- gounded coffee tank capacity{GroundedCoffeeTankCapacity}ml";
+        }
+
+        public override string ReportAmounts()
+        {
+            return $"Report : {Environment.NewLine}" +
+                   $"Loaded water amount - {LoadedWaterAmount}ml {Environment.NewLine}" +
+                   $"Loaded grounded coffee amount - {LoadedGroundedCoffeeAmount}gr {Environment.NewLine}" +
+                   $"Loaded coffeebeans amount - {LoadedCoffeeBeansAmount}gr {Environment.NewLine}" +
+                   $"Loaded milk amount - {LoadedMilkAmount}ml";
         }
     }
 }
