@@ -2,7 +2,7 @@
 
 namespace ZOO.AbstractClasses
 {
-    internal abstract class Herbivore : Animal
+    public abstract class Herbivore : Animal
     {
         public Herbivore(string name) : base(name)
         {

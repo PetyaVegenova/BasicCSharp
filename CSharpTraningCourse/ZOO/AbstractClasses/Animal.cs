@@ -2,7 +2,7 @@
 
 namespace ZOO.AbstractClasses
 {
-    internal abstract class Animal
+    public abstract class Animal
     {
         public Animal(string name)
         {

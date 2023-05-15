@@ -2,7 +2,7 @@
 
 namespace ZOO.Animals
 {
-    internal class Goat : Herbivore
+    public class Goat : Herbivore
     {
         public Goat(string name) : base(name)
         {

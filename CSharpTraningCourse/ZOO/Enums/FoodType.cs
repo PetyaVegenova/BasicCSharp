@@ -1,6 +1,6 @@
 ﻿namespace ZOO.Enums
 {
-    internal enum FoodType
+    public enum FoodType
     {
         Grass = 0,
         Meat = 1,

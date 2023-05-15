@@ -1,9 +1,8 @@
-﻿using System;
-using ZOO.Enums;
+﻿using ZOO.Enums;
 
 namespace ZOO.AbstractClasses
 {
-    internal abstract class AnimalCaretaker : Worker
+    public abstract class AnimalCaretaker : Worker
     {
         public AnimalCaretaker(string firstName, string lastName) : base(firstName, lastName)
         {
@@ -14,12 +13,12 @@ namespace ZOO.AbstractClasses
 
         public FoodType FeedAnimal()
         {
-            if (this.GetType().Name == "CarnivoresCaretaker")
+            if (this.GetType().Name == AnimalCaretakerConstats.CARNIVORES_CARETAKER)
             {
                 return FoodType.Meat;
             }
 
-            if (this.GetType().Name == "HerbivoresCaretaker")
+            if (this.GetType().Name == AnimalCaretakerConstats.HERBIVORES_CARETAKER)
             {
                 var foods = new List<FoodType>
                 {

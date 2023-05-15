@@ -2,7 +2,7 @@
 
 namespace ZOO.Animals
 {
-    internal class Squirrel : Omnivore
+    public class Squirrel : Omnivore
     {
         public Squirrel(string name) : base(name)
         {

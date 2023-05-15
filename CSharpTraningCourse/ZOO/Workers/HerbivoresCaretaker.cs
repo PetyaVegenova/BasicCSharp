@@ -3,7 +3,7 @@ using ZOO.Enums;
 
 namespace ZOO.Workers
 {
-    internal class HerbivoresCaretaker : AnimalCaretaker
+    public class HerbivoresCaretaker : AnimalCaretaker
     {
         public HerbivoresCaretaker(string firstName, string lastName) : base(firstName, lastName)
         {
