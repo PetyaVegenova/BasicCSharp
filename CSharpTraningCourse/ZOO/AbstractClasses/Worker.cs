@@ -2,7 +2,7 @@
 
 namespace ZOO.AbstractClasses
 {
-    internal abstract class Worker
+    public abstract class Worker
     {
         public Worker(string firstName, string lastName)
         {

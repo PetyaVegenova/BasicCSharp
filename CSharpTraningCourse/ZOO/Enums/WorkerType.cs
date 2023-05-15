@@ -1,6 +1,6 @@
 ﻿namespace ZOO.Enums
 {
-    internal enum WorkerType
+    public enum WorkerType
     {
         AnimalCareTaker = 0,
         TicketSeller = 1,

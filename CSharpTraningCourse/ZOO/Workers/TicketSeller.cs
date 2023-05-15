@@ -3,7 +3,7 @@ using ZOO.Enums;
 
 namespace ZOO.Workers
 {
-    internal class TicketSeller : Worker
+    public class TicketSeller : Worker
     {
         public TicketSeller(string firstName, string lastName) : base(firstName, lastName)
         {
